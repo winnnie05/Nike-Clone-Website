@@ -1,0 +1,88 @@
+body{
+    font-family: "Open Sans", sans-serif;
+
+.middle-nav-bar1{
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 20px;
+    justify-content: center;
+}
+.middle-nav-bar1 a{
+    padding: 0 10px;
+    padding-top: 2px;
+    list-style-type: none;
+}
+.middle-nav-bar1 a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.middle-nav-bar1 a{
+    color: inherit;
+    text-decoration: none;
+    color: #000000;
+}
+
+.top-bar{
+
+display: flex;
+}
+
+.py-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.row10-new-featured,
+.row10-men,
+.row10-women,
+.row10-kid,
+.row10-jordan,
+.row10-sale {
+    display: flex;
+    list-style: none;
+    background-color: white;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    right: 0;
+}
+.row10-new-featured.active,
+.row10-men.active,
+.row10-women.active,
+.row10-kid.active,
+.row10-jordan.active,
+.row10-sale.active {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+}
+
+.new-row1 {
+    width: 100%;
+}
+.nav{
+    list-style: none;
+    padding: 12px;
+}
+.nav li{
+    padding-bottom: 8px;
+}
+.nav-item1 a{
+    color: grey;
+    text-decoration: none;
+}
+.line{
+    padding: 16px;
+}
+h5{
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+}
